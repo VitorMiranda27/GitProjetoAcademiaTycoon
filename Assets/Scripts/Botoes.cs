@@ -9,4 +9,8 @@ public class Botoes : MonoBehaviour
     {
         SceneManager.LoadScene(nomeCena);
     }
+    public void SairdoJogo()
+    {
+        Application.Quit();
+    }
 }
